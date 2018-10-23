@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  
+<!-- Start navigation -->
+<div class="row">
+	<div class="col-md-12">
+		<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+			<!--<a class="navbar-brand" href="#">Navbar</a>-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">AdminInventoryManageHome<span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Admin Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#">Logout</a>
+				  </li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!--End Navigation-->
+
+
+<div class="container-fluid" style="margin-top:70px">
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<!-- Material form contact -->
+			<div class="card">
+
+				<h5 class="card-header info-color white-text text-center py-4">
+					<strong>Admin Inventory Manage</strong>
+				</h5>
+
+					<!--Card content-->
+					<div class="card-body px-lg-5 pt-0">
+
+						<!-- Start Form -->
+						<form class="text-center" style="color: #757575;">
+
+							<!-- ID -->
+							<div class="md-form mt-3">
+								<input type="text" id="materialContactFormText" class="form-control">
+								<label for="materialContactFormText">ID</label>
+							</div>
+
+							<!-- Item Type -->
+							<div class="form-group" 
+							<label for="exampleSelect1">ItemType</label>
+							<select class="form-control" id="exampleSelect1" style="margin-top:0px">
+							  <option>admin</option>
+							  <option>user</option>
+							  
+							</select>
+							</div>
+							
+							<!--<div class="form-group" >
+							<!--<label for="exampleSelect1">Example select</label>-->
+							<!--<select class="form-control" id="exampleSelect1">
+							  <option>1</option>
+							  <option>2</option>
+							  <option>3</option>
+							  <option>4</option>
+							  <option>5</option>
+							</select>--><!--</div>-->
+							
+							<!-- Item-->
+							<div class="form-group" 
+							<label for="exampleSelect1">Item</label>
+							<select class="form-control" id="exampleSelect1" style="margin-top:0px">
+							  <option>admin</option>
+							  <option>user</option>
+							  
+							</select>
+							</div>
+							
+							<!-- Status-->
+							<div class="form-group" 
+							<label for="exampleSelect1">Status</label>
+							<select class="form-control" id="exampleSelect1" style="margin-top:0px">
+							  <option>admin</option>
+							  <option>user</option>
+							  
+							</select>
+							</div>
+							
+							<!-- Lecture Hall-->
+							<div class="form-group" 
+							<label for="exampleSelect1">LectureHall</label>
+							<select class="form-control" id="exampleSelect1" style="margin-top:0px">
+							  <option>admin</option>
+							  <option>user</option>
+							  
+							</select>
+							</div>
+
+							<!-- Subject -->
+							
+							<!--<select class="mdb-select">
+								<option value="" disabled>Choose option</option>
+								<option value="1" selected>Feedback</option>
+								<option value="2">Report a bug</option>
+								<option value="3">Feature request</option>
+								<option value="4">Feature request</option>
+							</select>-->
+
+							<!--<div class="row">
+						
+								<form class="form-inline md-form form-sm active-cyan active-cyan-2 mt-2">
+									<i class="fa fa-search" aria-hidden="true"></i>
+									<input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+								</form>
+						   </div>-->
+						</form>
+						<!-- End Form -->
+		   
+								<!--<form class="form-inline md-form form-sm active-cyan active-cyan-2 mt-2">
+									<i class="fa fa-search" aria-hidden="true"></i>
+									<input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+								</form>
+		
+						<!--button-->
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4"><button class="btn btn-primary" type="submit">Add</button></div>
+								<div class="col-md-4"><button class="btn btn-primary" type="submit">Update</button></div>
+								<div class="col-md-4"><button class="btn btn-primary" type="submit">Delete</button></div>
+								<!--<div class="col-md-3"><button class="btn btn-primary" type="submit">View Items</button></div>-->
+							</div>
+						</div>
+						
+						<div class="container-fluid">
+							<div class="row" style="margin-top:10px">
+							<!--<div class="col-md-2"></div>-->
+							<div class="col-md-12" ><button type="button" class="btn  btn-primary btn-lg btn-block">View Items</button></div>
+							<!--<button class="btn btn-primary" type="submit">View Items</button>-->
+							<!--<button type="button" class="btn  purple-gradient btn-lg btn-block">View Items</button>-->
+							<!--<button class="btn blue-gradient">Blue</button>-->
+							<!--<button class="btn aqua-gradient">Aqua</button>-->
+							<!--<div class="col-md-2"></div>-->
+							</div>
+						</div>
+						<!-- button -->
+						<!--<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-4"><button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Delete Items</button></div>
+								<div class="col-md-4"><button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Repair Items</button></div>
+								<div class="col-md-4"><button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">View Items</button></div>
+							</div>
+						</div>-->
+		
+							<!--<form class="form-inline md-form form-sm active-cyan active-cyan-2 mt-2">
+									  <i class="fa fa-search" aria-hidden="true"></i>
+									  <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+							</form>-->
+					</div>
+			</div>
+		<!-- Material form contact -->
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+</div>
+
+
+
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

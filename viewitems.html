@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  
+<!-- Start nev -->
+<div class="row" >
+	<div class="col-md-12 col-lg-12 col-xm-12 col-xs-12 ">
+		<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+  
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">ViewItems<span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">AdminHome</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">AdminInventoryHome</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link disabled" href="#">Logout</a>
+				  </li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+<!--end of nev-->
+
+<!--start header-->
+<div class="container-fluid" style="margin-top:20px">
+	<div class="row">
+		<div class="col-md-12 col-lg-12 col-xm-12 col-xs-12">
+			<h3 class="card-header text-center font-weight-bold text-uppercase py-4">View Items</h3>
+		</div>
+	</div>
+</div>
+<!--end of header-->
+
+<!--start of select search-->
+<div class="container-fluid" style="margin-top:40px" >
+	<div class="row">
+		<!--<div class="col-md-2 col-lg-2 col-xm-12 col-xs-12">
+			<div class="row">
+				<div class="col-md-7 col-lg-7 col-xm-12 col-xs-12" style="margin-top:10px" style="text-align:left-side" ><h6 class="font-weight-bold text-uppercase">Show Entries</h6></div>
+					<div class="col-md-5 col-lg-5 col-xm-12 col-xs-12" style="align:left">
+						<select class="browser-default custom-select">
+						  <option selected>10</option>
+						  <option value="1">100</option>
+						  <option value="2">500</option>
+						  <option value="3">1000</option>
+						</select>
+					</div>
+			</div>
+		</div>-->
+		
+		<div class="col-md-8 ">
+		<div class="row">
+				<div class="col-md-3">
+					<div class="form-group" >
+						<label for="lecturehall">Lecture Hall</label>
+							<select class="form-control" id="lecturehall" >
+								<option>NLH</option>
+								<option>204</option>
+								<option>Computer-lab1</option>
+								<option>Computer-lab2</option>
+								<option>101</option>
+								<option>Department-office</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="form-group" >
+						<label for="itemtype">ItemType</label>
+							<select class="form-control" id="itemtype" >
+								<option>Wooden</option>
+								<option>Cushion</option>
+								<option>Electronic</option>
+								<option>Steel</option>
+								<option>Plastic</option>
+								<option>Computer</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="form-group" >
+						<label for="item">Item</label>
+							<select class="form-control" id="item" >
+								<option>Table</option>
+								<option>Chair</option>
+								<option>Locker</option>
+								<option>Projector</option>
+								<option>Photocopy Machine</option>
+								<option>Machine</option>
+								<option>CPU</option>
+								<option>Mouse</option>
+								<option>Keyboard</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="form-group" >
+						<label for="status">Status</label>
+							<select class="form-control" id="status" >
+								<option>work_well</option>
+								<option>damage</option>
+								<option>out_of_order</option>
+								
+							</select>
+					</div>
+				</div>
+			</div>
+			<!--<button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Report Generator</button>-->
+			<!--<form class="form-inline active-cyan-3 active-cyan-4">
+			  <i class="fa fa-search" aria-hidden="true"></i>
+			  <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+			</form>-->
+		</div>
+		
+		<!--<div class="col-md-4 ">
+			<div class="row">
+				<div class="col-md-2 col-lg-2 col-xm-12 col-xs-12">
+					<div class="form-group" >
+						<label for="item">Item</label>
+							<select class="form-control" id="item" >
+								<option>Table</option>
+								<option>Chair</option>
+								<option>Locker</option>
+								<option>Projector</option>
+								<option>Photocopy Machine</option>
+								<option>Machine</option>
+								<option>CPU</option>
+								<option>Mouse</option>
+								<option>Keyboard</option>
+							</select>
+					</div>
+				</div>
+				<div class="col-md-2 ">
+					<div class="form-group" >
+						<label for="status">Status</label>
+							<select class="form-control" id="status" >
+								<option>work_well</option>
+								<option>damage</option>
+								<option>out_of_order</option>
+								
+							</select>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		
+		
+		<div class="col-md-4">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-10">
+					<form class="form-inline md-form mr-auto mb-4" style="margin-top:28px">
+					  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					  <button class="btn btn-primary btn-rounded btn-sm my-0" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--End of select search-->
+
+
+<!--Start of table-->
+<div class="container-fluid">
+<div class="col-md-12 col-lg-12 col-xm-12 col-xs-12">
+	<table class="table table-bordered table-responsive-md table-striped text-center" style="margin-top:10px">
+		<thead class="blue white-text">
+			<tr>
+				  <th scope="col">No of records</th>
+				  <th scope="col">ID</th>
+				  <th scope="col">Item Type</th>
+				  <th scope="col">Item</th>
+				  <th scope="col">Status</th>
+				  <th scope="col">Remove</th>
+				  <th scope="col">Repair</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				  <th scope="row">1</th>
+				  <td>ffff</td>
+				  <td>Mark</td>
+				  <td>Otto</td>
+				  <td>@mdo</td>
+				  <td>
+					out_of_order<span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+				  </td>
+				  <td>
+					damage<span class="table-remove"><button type="button" class="btn btn-success btn-rounded btn-sm my-0">Repair</button></span>
+				  </td>
+			</tr>
+			<tr>
+				  <th scope="row">2</th>
+				  <td>ffff</td>
+				  <td>Jacob</td>
+				  <td>Thornton</td>
+				  <td>@fat</td>
+				  <td>
+					out-of-order<span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+				  </td>
+				  <td>
+					damage<span class="table-remove"><button type="button" class="btn btn-success btn-rounded btn-sm my-0">Repair</button></span>
+				  </td>
+			</tr>
+			<tr>
+				  <th scope="row">3</th>
+				  <td>ffff</td>
+				  <td>Larry</td>
+				  <td>the Bird</td>
+				  <td>@twitter</td>
+				  <td>
+					out-of-order<span class="table-remove"><button type="button" class="btn btn-danger btn-rounded btn-sm my-0">Remove</button></span>
+				  </td>
+				  <td>
+					damage<span class="table-remove"><button type="button" class="btn btn-success btn-rounded btn-sm my-0">Repair</button></span>
+				  </td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+<!--end of table-->
+
+
+<!--
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>-->
+
+			<!--search good-->
+			<!--<form class="form-inline active-cyan-3 active-cyan-4">
+			  <i class="fa fa-search" aria-hidden="true"></i>
+			  <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+			</form>
+			<!--end of search good-->
+
+
+							<!--good select-->
+
+							<!--<select class="mdb-select">
+											<option value="" disabled>Choose option</option>
+											<option value="1" selected>Feedback</option>
+											<option value="2">Report a bug</option>
+											<option value="3">Feature request</option>
+											<option value="4">Feature request</option>
+										</select>
+										
+							<!--end of good select-->			
+			
+		<!--search good-->	
+			<!--<form class="form-inline md-form mr-auto mb-4">
+				  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+				  <button class="btn aqua-gradient btn-rounded btn-sm my-0" type="submit">Search</button>
+			</form>
+		<!--end of search good-->
+
+
+<!--
+<select class="mdb-select md-form colorful-select dropdown-primary">
+  <option value="" disabled selected>Choose your country</option>
+  <option value="1">USA</option>
+  <option value="2">Germany</option>
+  <option value="3">France</option>
+  <option value="3">Poland</option>
+  <option value="3">Japan</option>
+</select>
+
+<select class="mdb-select" multiple searchable="Search here..">
+  <optgroup label="team 1">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+  </optgroup>
+  <optgroup label="team 2">
+    <option value="3">Option 3</option>
+    <option value="4">Option 4</option>
+  </optgroup>
+</select>
+
+
+<select class="mdb-select md-form">
+  <option value="" disabled selected>Choose your option</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>-->
+
+
+<!--importand good select-->
+<!--<select class="browser-default custom-select">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+
+<!--End of importand good select-->
+
+
+
+<!--Blue select--
+<select class="mdb-select md-form colorful-select dropdown-primary">
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+  <option value="4">Option 4</option>
+  <option value="5">Option 5</option>
+</select>
+<label>Blue select</label>
+<!--/Blue select-->
+<!--<div class="container-fluid">
+<div class="row">
+<div class="col-md-3"></div>
+<div class="col-md-6">
+
+<select class="mdb-select md-form" multiple>
+  <option value="" disabled selected>Choose your option</option>
+  <option value="1">Option 1</option>
+  <option value="2">Option 2</option>
+  <option value="3">Option 3</option>
+</select>
+<label>Example label</label>
+<button class="btn-save btn btn-primary btn-sm">Save</button></div>
+<div class="col-md-3"></div>
+</div>
+</div>-->
+
+
+
+<<!--select class="mdb-select md-form">
+  <optgroup label="Lecture Hall">
+    <option value="1">NLH</option>
+    <option value="2">Comuter-Lab1</option>
+  </optgroup>
+  <optgroup label="Item Type">
+    <option value="3">Wooden</option>
+    <option value="4">Cushion</option>
+  </optgroup>
+</select>
+<label>Example label</label>-->
+
+
+
+<!--<select class="mdb-select" multiple ">
+  <optgroup label="team 1">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+  </optgroup>
+  <optgroup label="team 2">
+    <option value="3">Option 3</option>
+    <option value="4">Option 4</option>
+  </optgroup>
+</select>-->
+
+<button class="btn btn-primary btn-rounded btn-sm my-0" type="submit">Report Generator</button>
+
+<!-- Material form login -->
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
